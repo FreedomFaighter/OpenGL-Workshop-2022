@@ -6,7 +6,7 @@
 
 void errorCallback(int code, const char* description)
 {
-	std::cout << "ERROR: " << &description;
+	std::cout << "CODE: " << code << " ERROR: " << &description;
 }
 
 int main() {
